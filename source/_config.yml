@@ -1,0 +1,5 @@
+markdown:   rdiscount
+lsi:        false
+
+rdiscount:
+    extensions: [smart]
