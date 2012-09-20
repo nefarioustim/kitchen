@@ -1,5 +1,7 @@
-markdown:   rdiscount
-lsi:        false
+root: /
+permalink: /:title.html
+markdown: rdiscount
+lsi: false
 
 rdiscount:
     extensions: [smart]
