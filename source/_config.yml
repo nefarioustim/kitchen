@@ -1,5 +1,5 @@
 root: /
-permalink: /:title.html
+permalink: /:title
 markdown: rdiscount
 lsi: false
 
