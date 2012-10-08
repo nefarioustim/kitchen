@@ -2,6 +2,7 @@ Cottage Pie
 ===========
 
 Serves 4-6
+
 Takes 45 minutes to make, 45 minutes in the oven
 
 Ingredients
@@ -30,7 +31,7 @@ Ingredients
 * Salt and Pepper
 
 Preparation
-------
+-----------
 
 Prepare the mashed potato crust:
 
