@@ -1,6 +1,9 @@
 Cottage Pie
 ===========
 
+Serves 4-6
+Takes 45 minutes to make, 45 minutes in the oven
+
 Ingredients
 -----------
 
@@ -31,7 +34,7 @@ Preparation
 
 Prepare the mashed potato crust:
 
-1. Peel the potatoes and halve them. Chop the halves into quarters and cover them in boiling water. Add a pinch of salt, and bring back to the boil. Simmer until they are soft and then drain.
+1. Peel the potatoes and halve them. Chop the halves into quarters and cover them in boiling water. Add a pinch of salt, and bring back to the boil. Start preparing the filling whilst you wait for the potatoes to cook. Simmer until they are soft and then drain. Check them periodically by prodding them with a fork.
 1. Add the butter and crème fraîche to the potato and begin to mash. Once the potatoes have broken down a little, add the cheese and pepper and continue to mash until smooth.
 
 Prepare the filling:
