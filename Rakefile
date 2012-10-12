@@ -30,3 +30,10 @@ task :new_post, :title do |t, args|
         post.puts "---"
     end
 end
+
+desc "Generate jekyll site"
+task :generate do
+    puts "## Generating Site with Jekyll"
+    system "compass compile --css-dir #{source_dir}/assets/css"
+    system "jekyll #{source_dir} #{public_dir}"
+end
