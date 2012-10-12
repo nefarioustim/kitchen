@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 require "rubygems"
 require "bundler/setup"
 require "stringex"
@@ -38,15 +40,18 @@ end
 
 desc "Preview the site in a web browser"
 task :preview do
-    jekyll_pid = Process.spawn("jekyll ./#{source_dir} ./#{public_dir} --server")
+    jekyll_pid = Process.spawn("jekyll ./#{source_dir} ./#{public_dir} --server #{server_port}")
     compass_pid = Process.spawn("compass watch --css-dir #{source_dir}/assets/css")
 
     puts "Starting to watch source with Jekyll (PID: #{jekyll_pid}) and Compass (PID: #{compass_pid})."
+    puts "Visit your site in a browser at http://localhost:#{server_port}. Press Ctrl-C to stop…\n\n"
 
-    trap("SIGINT") {
+    trap("SIGINT") do
+        print "\nKilling dem processes…\t\t"
         [jekyll_pid, compass_pid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
+        puts "DONE!\n"
         exit 0
-    }
+    end
 
     [jekyll_pid, compass_pid].each { |pid| Process.wait(pid) }
 end
