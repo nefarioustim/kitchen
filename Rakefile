@@ -38,11 +38,12 @@ end
 
 desc "Preview the site in a web browser"
 task :preview do
-    puts "Starting to watch source with Jekyll and Compass."
     jekyll_pid = Process.spawn("jekyll ./#{source_dir} ./#{public_dir} --server")
     compass_pid = Process.spawn("compass watch --css-dir #{source_dir}/assets/css")
 
-    trap("INT") {
+    puts "Starting to watch source with Jekyll (PID: #{jekyll_pid}) and Compass (PID: #{compass_pid})."
+
+    trap("SIGINT") {
         [jekyll_pid, compass_pid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
         exit 0
     }
