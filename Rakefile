@@ -20,7 +20,7 @@ task :new_post, :title do |t, args|
     if File.exist?(filename)
         abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
     end
-    puts "Creating new post: #{filename}"
+    print "Creating new post: #{filename}…\t"
     open(filename, 'w') do |post|
         post.puts "---"
         post.puts "layout: post"
@@ -29,13 +29,15 @@ task :new_post, :title do |t, args|
         post.puts "categories: "
         post.puts "---"
     end
+    puts "[DONE!]\n"
 end
 
 desc "Generate jekyll site"
 task :generate do
-    puts "## Generating Site with Jekyll"
+    print "Generating Site with Jekyll…\t"
     system "compass compile --css-dir #{source_dir}/assets/css"
     system "jekyll ./#{source_dir} ./#{public_dir}"
+    puts "[DONE!]\n"
 end
 
 desc "Preview the site in a web browser"
@@ -47,9 +49,9 @@ task :preview do
     puts "Visit your site in a browser at http://localhost:#{server_port}. Press Ctrl-C to stop…\n\n"
 
     trap("SIGINT") do
-        print "\nKilling dem processes…\t\t"
+        print "\nKilling dem processes…\t"
         [jekyll_pid, compass_pid].each { |pid| Process.kill(9, pid) rescue Errno::ESRCH }
-        puts "DONE!\n"
+        puts "[DONE!]\n"
         exit 0
     end
 
