@@ -2,6 +2,7 @@ root: /
 permalink: /:title
 markdown: rdiscount
 lsi: false
+title: Timbo's Kitchen
 
 rdiscount:
     extensions: [smart]
