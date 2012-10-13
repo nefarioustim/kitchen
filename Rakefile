@@ -42,7 +42,7 @@ end
 
 desc "Preview the site in a web browser"
 task :preview do
-    jekyll_pid = Process.spawn("jekyll ./#{source_dir} ./#{public_dir} --server #{server_port}")
+    jekyll_pid = Process.spawn("jekyll ./#{source_dir} ./#{public_dir} --auto --server #{server_port}")
     compass_pid = Process.spawn("compass watch --css-dir #{source_dir}/assets/css")
 
     puts "Starting to watch source with Jekyll (PID: #{jekyll_pid}) and Compass (PID: #{compass_pid})."
