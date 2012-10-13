@@ -60,6 +60,6 @@ Make the pie:
 
 1. Pour the filling into a large oven-proof dish.
 1. Spoon the mashed potato on top of the sauce. You'll need to start from the edges and work your way in, otherwise the potato will sink into the sauce. Once the dish is covered in a nice thick layer of mashed potato, smooth it over with the back of the spoon to make sure it's well covered and then drag the tips of a fork lightly over the top to create a cross-hatch pattern. This will roughen up the mash on top and give it a textured crust which will crisp up during cooking.
-2. Place in the oven at 180ºC for approximately 45 minutes, or until the crust is golden and crispy.
+2. Place in the oven at 180ºC/350ºF/gas 4 for approximately 45 minutes, or until the top is golden and crispy.
 
 Enjoy!
