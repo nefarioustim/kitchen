@@ -7,9 +7,13 @@ categories:
 Cottage Pie
 ===========
 
-Serves 4-6
+Cottage Pie (or Shepherd's Pie, which these days tends to mean a lamb mince alternative) is a pie filled with minced beef and topped with a mash potato crust. It's a British classic and is a firm favourite in our household. What's more it's inherently gluten-free (unless you use something nasty to thicken the sauce).
 
-Takes 45 minutes to make, 45 minutes in the oven
+Mrs Beeton describes it as a means of using leftover roasted meat of any kind, and lines the pie dish with mashed potato as well as having a mashed potato crust on top. Personally, I favour a beef sauce, flavoured with root vegetables and tomato, and a nice cheesy-mash crust for added yummy.
+
+Takes about 45 minutes to make plus 45 minutes in the oven.
+
+Serves 4-6 depending on how hungry you all are.
 
 Ingredients
 -----------
@@ -50,4 +54,12 @@ Prepare the filling:
 1. Heat the oil in a large pan. Add the onion and turn down the heat. Fry gently. Once the onion has turned translucent, add the carrot, celery, and garlic and continue to fry until the onion starts to brown.
 1. Add the mince and brown. Turn down the heat and add crumble in the beef stock cube. Now add the Worcestershire Sauce. Pour in the tin of tomatoes and stir. Fill half the tin with water and also add to the pan.
 1. Let the mixture come back to the boil and gently break up the tomatoes using the back of a wooden spoon and the side of the pan. Mix in the Marmite, and season the sauce to taste with the salt and pepper. Simmer for 15-20 minutes until the sauce has reduced to just covering the meat and vegetables.
-1. In a separate cup, mix the corn flour with cold water to make a corn-starch thickener. Once the corn flour has disolved into the water, pour the mixture into the sauce pot and stir in; this will thicken the gravy of the sauce.
+1. In a separate cup, mix the corn flour with cold water to make a corn-starch thickener. Once the corn flour has dissolved into the water, pour the mixture into the sauce pot and stir in; this will thicken the gravy of the sauce.
+
+Make the pie:
+
+1. Pour the filling into a large oven-proof dish.
+1. Spoon the mashed potato on top of the sauce. You'll need to start from the edges and work your way in, otherwise the potato will sink into the sauce. Once the dish is covered in a nice thick layer of mashed potato, smooth it over with the back of the spoon to make sure it's well covered and then drag the tips of a fork lightly over the top to create a cross-hatch pattern. This will roughen up the mash on top and give it a textured crust which will crisp up during cooking.
+2. Place in the oven at 180ºC for approximately 45 minutes, or until the crust is golden and crispy.
+
+Enjoy!
