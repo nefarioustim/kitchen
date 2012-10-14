@@ -18,6 +18,8 @@ Serves 4-6 depending on how hungry you all are.
 Ingredients
 -----------
 
+![](/assets/img/cottage-pie.jpg)
+
 ### Mashed potato crust
 
 * 1.5kg Potatoes
