@@ -10,6 +10,8 @@ public_dir      = "public"  # compiled site directory
 source_dir      = "source"  # source file directory
 posts_dir       = "_posts"  # directory for blog files
 server_port     = "4000"    # port for preview server eg. localhost:4000
+remote_server   = "pegasus" # remote server for deployment
+remote_path     = "sites/kitchen/public"    # remote path for deployment
 
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
 task :new_post, :title do |t, args|
@@ -56,4 +58,11 @@ task :preview do
     end
 
     [jekyll_pid, compass_pid].each { |pid| Process.wait(pid) }
+end
+
+desc "Deploy the site to the configured remote destination"
+task :deploy do
+    puts "Deploying site to #{remote_server}:#{remote_path}…\n"
+    system "rsync -av ./#{public_dir}/ #{remote_server}:#{remote_path}"
+    puts "[DONE!]\n"
 end
