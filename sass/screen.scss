@@ -52,3 +52,16 @@ h6 {
 p {
     margin: 1em 0;
 }
+
+ul,
+ol {
+    margin: 1em 0;
+    padding-left: 40px;
+}
+ol li {
+    list-style-type: decimal;
+    margin: 1em 0;
+}
+ul li {
+    list-style-type: disc;
+}
