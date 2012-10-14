@@ -11,9 +11,8 @@ Cottage Pie (or Shepherd's Pie, which these days tends to mean a lamb mince alte
 
 Mrs Beeton describes it as a means of using leftover roasted meat of any kind, and lines the pie dish with mashed potato as well as having a mashed potato crust on top. Personally, I favour a beef sauce, flavoured with root vegetables and tomato, and a nice cheesy-mash crust for added yummy.
 
-Takes about 45 minutes to make plus 45 minutes in the oven.
-
-Serves 4-6 depending on how hungry you all are.
+* Takes about 45 minutes to make plus 45 minutes in the oven.
+* Serves 4-6 depending on how hungry you all are.
 
 Ingredients
 -----------
