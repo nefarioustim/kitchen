@@ -138,13 +138,6 @@ ul li {
   text-align: center;
   position: relative;
 }
-#masthead a {
-  color: white;
-  text-decoration: none;
-}
-#masthead a:active, #masthead a:hover, #masthead a:focus {
-  text-decoration: underline;
-}
 #masthead h1,
 #masthead .title {
   font: 4em/1.5 "Lobster", cursive;
@@ -210,6 +203,27 @@ ul li {
   z-index: -1;
 }
 
+#copyright {
+  text-align: center;
+  font-size: 10px;
+}
+
+#site-footer {
+  margin-bottom: 20px;
+}
+
+#masthead a,
+#site-footer a {
+  color: white;
+  text-decoration: none;
+}
+#masthead a:active, #masthead a:hover, #masthead a:focus,
+#site-footer a:active,
+#site-footer a:hover,
+#site-footer a:focus {
+  text-decoration: underline;
+}
+
 #page {
   padding: 20px;
   border: 10px solid white;
@@ -220,7 +234,7 @@ ul li {
   box-shadow: inset 0 1px 20px 0 rgba(0, 0, 0, 0.2);
   color: black;
   text-shadow: white 0 1px 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #page img {
   border: 10px solid white;

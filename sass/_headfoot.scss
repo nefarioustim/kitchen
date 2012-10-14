@@ -3,14 +3,6 @@
     text-align: center;
     position: relative;
 
-    a {
-        color: white;
-        text-decoration: none;
-        &:active, &:hover, &:focus {
-            text-decoration: underline;
-        }
-    }
-
     h1,
     .title {
         font: 4em/1.5 "Lobster", cursive;
@@ -76,5 +68,23 @@
         display: block;
         width: 0;
         z-index: -1;
+    }
+}
+
+#copyright {
+    text-align: center;
+    font-size: 10px;
+}
+
+#site-footer {
+    margin-bottom: 20px;
+}
+
+#masthead a,
+#site-footer a {
+    color: white;
+    text-decoration: none;
+    &:active, &:hover, &:focus {
+        text-decoration: underline;
     }
 }

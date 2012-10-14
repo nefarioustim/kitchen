@@ -6,7 +6,7 @@
     @include single-box-shadow(rgba(#000, 0.2), 0, 1px, 20px, 0, inset);
     color: $text;
     @include text-shadow(#fff 0 1px 0);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
     img {
         border:10px solid white;
