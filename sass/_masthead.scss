@@ -1,9 +1,10 @@
 #masthead {
-    padding: 40px;
+    padding: 40px 0 0;
     text-align: center;
+    position: relative;
 
     a {
-        color: $bakery-box-white;
+        color: white;
         text-decoration: none;
         &:active, &:hover, &:focus {
             text-decoration: underline;
@@ -15,5 +16,65 @@
         font: 4em/1.5 "Lobster", cursive;
         margin: 0;
         @include text-shadow(rgba(#000,.3) 0 2px 0);
+    }
+
+    ul {
+        clear: both;
+        margin: 10px 0 0;
+        padding: 0;
+        border: 10px solid white;
+        border-width: 10px 5px;
+        overflow: hidden;
+
+        li {
+            float: left;
+            display: inline;
+            width: 25%;
+
+            a {
+                display: block;
+                background: $sparkling-brook;
+                @include background-image(linear-gradient($sparkling-brook, adjust_lightness($sparkling-brook, -8)));
+                border: 5px solid white;
+                border-width: 0 5px;
+                color: black;
+                line-height: 2;
+                text-decoration: none;
+
+                &:active, &:hover, &:focus {
+                    text-decoration: none;
+                    background: $lemon-ice;
+                    @include background-image(
+                        linear-gradient(
+                            $lemon-ice,
+                            adjust_lightness($lemon-ice, -16)
+                        )
+                    );
+                }
+            }
+        }
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: -25px;
+        bottom: 0;
+        border: 20px solid white;
+        border-left-color: transparent;
+        display: block;
+        width: 0;
+        z-index: -1;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        right: -25px;
+        bottom: 0;
+        border: 20px solid white;
+        border-right-color: transparent;
+        display: block;
+        width: 0;
+        z-index: -1;
     }
 }

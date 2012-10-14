@@ -134,11 +134,12 @@ ul li {
 }
 
 #masthead {
-  padding: 40px;
+  padding: 40px 0 0;
   text-align: center;
+  position: relative;
 }
 #masthead a {
-  color: #e5eae3;
+  color: white;
   text-decoration: none;
 }
 #masthead a:active, #masthead a:hover, #masthead a:focus {
@@ -150,11 +151,73 @@ ul li {
   margin: 0;
   text-shadow: rgba(0, 0, 0, 0.3) 0 2px 0;
 }
+#masthead ul {
+  clear: both;
+  margin: 10px 0 0;
+  padding: 0;
+  border: 10px solid white;
+  border-width: 10px 5px;
+  overflow: hidden;
+}
+#masthead ul li {
+  float: left;
+  display: inline;
+  width: 25%;
+}
+#masthead ul li a {
+  display: block;
+  background: #bedde7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bedde7), color-stop(100%, #a0cddc));
+  background-image: -webkit-linear-gradient(#bedde7, #a0cddc);
+  background-image: -moz-linear-gradient(#bedde7, #a0cddc);
+  background-image: -o-linear-gradient(#bedde7, #a0cddc);
+  background-image: linear-gradient(#bedde7, #a0cddc);
+  border: 5px solid white;
+  border-width: 0 5px;
+  color: black;
+  line-height: 2;
+  text-decoration: none;
+}
+#masthead ul li a:active, #masthead ul li a:hover, #masthead ul li a:focus {
+  text-decoration: none;
+  background: #f7f8cd;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f7f8cd), color-stop(100%, #ecee85));
+  background-image: -webkit-linear-gradient(#f7f8cd, #ecee85);
+  background-image: -moz-linear-gradient(#f7f8cd, #ecee85);
+  background-image: -o-linear-gradient(#f7f8cd, #ecee85);
+  background-image: linear-gradient(#f7f8cd, #ecee85);
+}
+#masthead:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  bottom: 0;
+  border: 20px solid white;
+  border-left-color: transparent;
+  display: block;
+  width: 0;
+  z-index: -1;
+}
+#masthead:after {
+  content: "";
+  position: absolute;
+  right: -25px;
+  bottom: 0;
+  border: 20px solid white;
+  border-right-color: transparent;
+  display: block;
+  width: 0;
+  z-index: -1;
+}
 
 #page {
   padding: 20px;
   border: 10px solid white;
+  border-top: 0;
   background: #e5eae3;
+  -webkit-box-shadow: inset 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 20px 0 rgba(0, 0, 0, 0.2);
   color: black;
   text-shadow: white 0 1px 0;
   margin-bottom: 40px;
