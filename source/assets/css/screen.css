@@ -147,11 +147,14 @@ ul li {
 #masthead .title {
   font: 4em/1.5 "Lobster", cursive;
   margin: 0;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 2px 0;
 }
 
 #page {
   padding: 20px;
+  border: 10px solid white;
   background: #e5eae3;
   color: black;
   text-shadow: white 0 1px 0;
+  margin-bottom: 40px;
 }
