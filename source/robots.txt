@@ -1,0 +1,7 @@
+# I have made no secret of my disdain for Chef Gusteau's famous motto,
+# "Anyone can cook." But I realize, only now do I truly understand what he
+# meant. Not everyone can become a great artist; but a great artist *can*
+# come from *anywhere*.
+
+User-agent: *
+Disallow: /
