@@ -1,18 +1,32 @@
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Core styles
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* {
+    @include box-sizing(border-box);
+}
+
 html {
+    @include background-image(linear-gradient($salvia-dark, $salvia));
+    background-attachment: fixed;
     font: 16px/1.5 "Open Sans", sans-serif;
     overflow-y: scroll;
     text-align: center;
 }
 
 body {
+    background: $bakery-box-white;
     width: 60%;
     margin: 0 auto;
     text-align: left;
+    padding: 20px;
+    color: $text;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font: 100%/1 "Lobster", cursive;
     margin: 1em 0;
+    color: $text-light;
 }
 
 h1 {
