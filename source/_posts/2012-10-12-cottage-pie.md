@@ -17,7 +17,7 @@ Mrs Beeton describes it as a means of using leftover roasted meat of any kind, a
 Ingredients
 -----------
 
-![](/assets/img/cottage-pie.jpg)
+![A very tasty looking Cottage Pie](/assets/img/cottage-pie.jpg)
 
 ### Mashed potato crust
 
