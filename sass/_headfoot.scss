@@ -29,7 +29,8 @@
                 @include background-image(linear-gradient($sparkling-brook, adjust_lightness($sparkling-brook, -8)));
                 border: 5px solid white;
                 border-width: 0 5px;
-                color: black;
+                font-weight: bold;
+                color: rgba(adjust_lightness($sparkling-brook, -64), 0.5);
                 line-height: 2;
                 text-decoration: none;
 

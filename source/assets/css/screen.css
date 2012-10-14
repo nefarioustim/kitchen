@@ -167,7 +167,8 @@ ul li {
   background-image: linear-gradient(#bedde7, #a0cddc);
   border: 5px solid white;
   border-width: 0 5px;
-  color: black;
+  font-weight: bold;
+  color: rgba(26, 58, 69, 0.5);
   line-height: 2;
   text-decoration: none;
 }
