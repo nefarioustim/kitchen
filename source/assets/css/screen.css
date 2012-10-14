@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -77,29 +73,28 @@ html {
 }
 
 body {
-  background: #e5eae3;
   width: 60%;
   margin: 0 auto;
   text-align: left;
-  padding: 20px;
-  color: black;
+  color: #e5eae3;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font: 100%/1 "Lobster", cursive;
   margin: 1em 0;
-  color: #525252;
+  color: #444f40;
 }
 
 h1 {
-  font-size: 2.5em;
-  margin-top: .5em;
+  font-size: 3em;
+  margin: 0 0 0.75em;
 }
 
 h2 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 0.3em;
   font-size: 2em;
+  margin-top: 1.5em;
 }
 
 h3 {
@@ -135,4 +130,28 @@ ol li {
 
 ul li {
   list-style-type: disc;
+}
+
+#masthead {
+  padding: 40px;
+  text-align: center;
+}
+#masthead a {
+  color: #e5eae3;
+  text-decoration: none;
+}
+#masthead a:active, #masthead a:hover, #masthead a:focus {
+  text-decoration: underline;
+}
+#masthead h1,
+#masthead .title {
+  font: 4em/1.5 "Lobster", cursive;
+  margin: 0;
+}
+
+#page {
+  padding: 20px;
+  background: #e5eae3;
+  color: black;
+  text-shadow: white 0 1px 0;
 }

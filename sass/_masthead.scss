@@ -1,0 +1,18 @@
+#masthead {
+    padding: 40px;
+    text-align: center;
+
+    a {
+        color: $bakery-box-white;
+        text-decoration: none;
+        &:active, &:hover, &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    h1,
+    .title {
+        font: 4em/1.5 "Lobster", cursive;
+        margin: 0;
+    }
+}

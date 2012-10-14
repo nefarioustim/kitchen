@@ -1,0 +1,6 @@
+#page {
+    padding: 20px;
+    background: $bakery-box-white;
+    color: $text;
+    @include text-shadow(#fff 0 1px 0);
+}

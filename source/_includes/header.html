@@ -1,5 +1,9 @@
 {% if index %}
-<h1><a href="{{ root_url }}/">Timbo’s Kitchen</a></h1>
+<div id="masthead">
+    <h1><a href="{{ root_url }}/">Timbo’s Kitchen</a></h1>
+</div>
 {% else %}
-<div class="header"><a href="{{ root_url }}/">Timbo’s Kitchen</a></div>
+<div id="masthead">
+    <a href="{{ root_url }}/" class="title">Timbo’s Kitchen</a>
+</div>
 {% endif %}
