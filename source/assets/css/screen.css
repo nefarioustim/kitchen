@@ -151,15 +151,16 @@ ul li {
 }
 #masthead ul {
   clear: both;
+  overflow: hidden;
   margin: 10px 0 0;
   padding: 0;
   border: 10px solid white;
   border-width: 10px 5px;
-  overflow: hidden;
 }
 #masthead ul li {
   float: left;
   display: inline;
+  min-width: 25%;
   width: 25%;
 }
 #masthead ul li a {
@@ -190,7 +191,7 @@ ul li {
   content: "";
   position: absolute;
   left: -25px;
-  bottom: 0;
+  bottom: 3px;
   border: 20px solid white;
   border-left-color: transparent;
   display: block;
@@ -201,7 +202,7 @@ ul li {
   content: "";
   position: absolute;
   right: -25px;
-  bottom: 0;
+  bottom: 3px;
   border: 20px solid white;
   border-right-color: transparent;
   display: block;
@@ -231,6 +232,7 @@ ul li {
 }
 
 #page {
+  clear: both;
   padding: 20px;
   border: 10px solid white;
   border-top: 0;
