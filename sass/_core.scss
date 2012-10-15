@@ -21,6 +21,12 @@ body {
     color: $bakery-box-white;
 }
 
+@media screen and (min-width: 1280px){
+    body {
+        width: 700px;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     font: 100%/1 "Lobster", cursive;
     margin: 1em 0;
