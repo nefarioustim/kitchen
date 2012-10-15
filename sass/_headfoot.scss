@@ -12,16 +12,17 @@
 
     ul {
         clear: both;
+        overflow: hidden;
         margin: 10px 0 0;
         padding: 0;
         border: 10px solid white;
         border-width: 10px 5px;
-        overflow: hidden;
 
         li {
             float: left;
             display: inline;
-            width: 25%;
+            min-width: 25%;
+            width:25%;
 
             a {
                 display: block;
@@ -52,7 +53,7 @@
         content: "";
         position: absolute;
         left: -25px;
-        bottom: 0;
+        bottom: 3px;
         border: 20px solid white;
         border-left-color: transparent;
         display: block;
@@ -63,7 +64,7 @@
         content: "";
         position: absolute;
         right: -25px;
-        bottom: 0;
+        bottom: 3px;
         border: 20px solid white;
         border-right-color: transparent;
         display: block;
