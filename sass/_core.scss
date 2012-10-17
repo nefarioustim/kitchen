@@ -36,6 +36,11 @@ body {
         width: 80%;
     }
 }
+@media screen and (max-width: 480px){
+    body {
+        width: 90%;
+    }
+}
 
 h1, h2, h3, h4, h5, h6 {
     font: 100%/1 "Lobster", cursive;
