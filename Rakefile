@@ -62,6 +62,9 @@ end
 
 desc "Deploy the site to the configured remote destination"
 task :deploy do
+    if ENV['remote']
+        remote_server = ENV['remote']
+    end
     puts "Deploying site to #{remote_server}:#{remote_path}…\n"
     system "rsync -av ./#{public_dir}/ #{remote_server}:#{remote_path}"
     puts "[DONE!]\n"
