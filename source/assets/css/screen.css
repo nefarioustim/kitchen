@@ -162,7 +162,7 @@ ul li {
 #masthead .title {
   font: 4em/1.5 "Lobster", cursive;
   margin: 0;
-  text-shadow: rgba(0, 0, 0, 0.3) 0 2px 0;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 4px 0;
 }
 #masthead ul {
   clear: both;
