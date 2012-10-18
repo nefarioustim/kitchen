@@ -1,12 +1,12 @@
 #masthead h1 {
-    font-size: 5em;
+    font-size: 6em;
 }
 
 .blurb {
     padding: 20px;
-    margin-top: 20px;
     border: 10px solid white;
+    border-top: 0;
+    @include border-bottom-radius(20px);
     background: $bakery-box-white;
     color: $text;
-    @include border-radius(20px);
 }

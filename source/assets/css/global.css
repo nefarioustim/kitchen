@@ -175,8 +175,7 @@ ul li {
 #masthead ul li {
   float: left;
   display: inline;
-  min-width: 25%;
-  width: 25%;
+  width: 33.33333%;
 }
 #masthead ul li a {
   display: block;
@@ -251,6 +250,12 @@ ul li {
   padding: 20px;
   border: 10px solid white;
   border-top: 0;
+  -moz-border-radius-bottomleft: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -webkit-border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   background: #e5eae3;
   -webkit-box-shadow: inset 0 1px 20px 0 rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 0 1px 20px 0 rgba(0, 0, 0, 0.2);

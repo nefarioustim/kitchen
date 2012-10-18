@@ -3,6 +3,7 @@
     padding: 20px;
     border: 10px solid white;
     border-top: 0;
+    @include border-bottom-radius(20px);
     background: $bakery-box-white;
     @include single-box-shadow(rgba(#000, 0.2), 0, 1px, 20px, 0, inset);
     color: $text;
