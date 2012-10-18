@@ -7,5 +7,8 @@
         <meta name="robots" content="noindex, nofollow">
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
         <link href="http://fonts.googleapis.com/css?family=Lobster|Open+Sans:400italic,700italic,400,700" rel="stylesheet" type="text/css">
-        <link href="/assets/css/screen.css" rel="stylesheet" type="text/css">
+        <link href="/assets/css/global.css" rel="stylesheet" type="text/css">
+        {% if page.styles %}
+        <link href="/assets/css/{{ page.styles }}.css" rel="stylesheet" type="text/css">
+        {% endif %}
     </head>
