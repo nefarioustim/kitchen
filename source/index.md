@@ -1,5 +1,6 @@
 ---
 layout: index
+styles: index-page
 ---
 
 <div class="blurb">
