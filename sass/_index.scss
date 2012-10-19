@@ -3,10 +3,61 @@
 }
 
 .blurb {
+    margin: 0;
     padding: 20px;
     border: 10px solid white;
     border-top: 0;
     @include border-bottom-radius(20px);
     background: $bakery-box-white;
     color: $text;
+}
+
+.recent,
+.recent li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent {
+    margin-top: 20px;
+    overflow: hidden;
+
+    li {
+        float: left;
+        border: 10px solid white;
+        @include border-radius(20px);
+        background: $bakery-box-white;
+        color: $text;
+        padding: 20px;
+        width: 50%;
+
+        h2, p {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+
+            a {
+                color: inherit;
+                text-decoration: none;
+
+                &:hover, &:focus, &:active {
+                    text-decoration: underline;
+                }
+            }
+
+            img {
+                float: left;
+                margin-right: 20px;
+            }
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
 }

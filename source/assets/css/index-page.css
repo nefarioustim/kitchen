@@ -3,6 +3,7 @@
 }
 
 .blurb {
+  margin: 0;
   padding: 20px;
   border: 10px solid white;
   border-top: 0;
@@ -14,4 +15,51 @@
   border-bottom-right-radius: 20px;
   background: #e5eae3;
   color: black;
+}
+
+.recent,
+.recent li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.recent li {
+  float: left;
+  border: 10px solid white;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  background: #e5eae3;
+  color: black;
+  padding: 20px;
+  width: 50%;
+}
+.recent li h2, .recent li p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.recent li h2 {
+  margin-bottom: 10px;
+}
+.recent li h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+.recent li h2 a:hover, .recent li h2 a:focus, .recent li h2 a:active {
+  text-decoration: underline;
+}
+.recent li h2 img {
+  float: left;
+  margin-right: 20px;
+}
+.recent li p {
+  font-size: 14px;
 }
