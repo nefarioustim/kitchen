@@ -3,6 +3,7 @@ permalink: /:title
 markdown: rdiscount
 lsi: false
 title: Timbo's Kitchen
+paginate: 3
 
 rdiscount:
     extensions: [smart]
