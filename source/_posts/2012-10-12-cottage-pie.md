@@ -3,6 +3,7 @@ layout: post
 title: "Cottage Pie"
 date: 2012-10-12 10:35
 categories:
+image: /assets/img/cottage-pie.jpg
 ---
 Cottage Pie
 ===========
