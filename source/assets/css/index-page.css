@@ -48,6 +48,7 @@
 }
 .recent li h2 {
   margin-bottom: 10px;
+  font-size: 1.5em;
 }
 .recent li h2 a {
   color: inherit;
@@ -61,5 +62,5 @@
   margin-right: 20px;
 }
 .recent li p {
-  font-size: 14px;
+  font-size: 13px;
 }
