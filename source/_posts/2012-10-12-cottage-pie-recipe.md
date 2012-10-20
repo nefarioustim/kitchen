@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Cottage Pie"
+title: "Cottage Pie Recipe"
 date: 2012-10-12 10:35
 categories:
 image: /assets/img/cottage-pie.jpg
 ---
-Cottage Pie
-===========
+Cottage Pie Recipe
+==================
 
 Cottage Pie (or Shepherd's Pie, which these days tends to mean a lamb mince alternative) is a pie filled with minced beef and topped with a mash potato crust. It's a British classic and is a firm favourite in our household. What's more it's inherently gluten-free (unless you use something nasty to thicken the sauce).
 
