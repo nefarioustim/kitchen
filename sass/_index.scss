@@ -30,7 +30,9 @@
         background: $bakery-box-white;
         color: $text;
         padding: 20px;
-        width: 50%;
+        margin: 10px;
+        width: 47.4%;
+        @include min-height(124px);
 
         h2, p {
             margin: 0;
@@ -41,6 +43,8 @@
         h2 {
             margin-bottom: 10px;
             font-size: 1.5em;
+            line-height: 1.3;
+            @include min-height(64px);
 
             a {
                 color: inherit;
@@ -54,11 +58,14 @@
             img {
                 float: left;
                 margin-right: 20px;
+                @include border-radius(4px);
             }
         }
 
         p {
             font-size: 13px;
+            text-align: right;
+            color: $text-lighter;
         }
     }
 }

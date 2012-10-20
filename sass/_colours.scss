@@ -15,3 +15,4 @@ $salvia-dark: adjust-lightness($salvia, -32);
 
 $text: #000;
 $text-light: adjust-lightness($text, 32);
+$text-lighter: adjust-lightness($text, 48);
