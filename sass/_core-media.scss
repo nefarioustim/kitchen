@@ -38,3 +38,13 @@
         }
     }
 }
+@media screen and (max-width: 480px) {
+    #masthead {
+        padding: 20px 0 0;
+        h1,
+        .title {
+            line-height: 1.1;
+            padding-bottom: 10px;
+        }
+    }
+}
