@@ -79,17 +79,17 @@ body {
   color: #e5eae3;
 }
 
-@media screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
   body {
     width: 770px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   body {
     width: 70%;
   }
 }
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   body {
     width: 80%;
   }
@@ -100,7 +100,7 @@ body {
   }
 }
 h1, h2, h3, h4, h5, h6 {
-  font: 100%/1 "Lobster", cursive;
+  font: 100%/1 "Lobster", georgia, serif;
   margin: 1em 0;
   color: #444f40;
 }
