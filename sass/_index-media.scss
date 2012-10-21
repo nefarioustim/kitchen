@@ -1,0 +1,19 @@
+@media screen and (max-width: 900px) {
+    #masthead h1 {
+        font-size: 4em;
+    }
+}
+@media screen and (max-width: 640px) {
+    #masthead h1 {
+        font-size: 3em;
+    }
+
+    .recent {
+        li.even,
+        li.odd {
+            float: none;
+            width: auto;
+            margin: 10px 0;
+        }
+    }
+}

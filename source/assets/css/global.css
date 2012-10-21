@@ -138,25 +138,6 @@ ul li {
   list-style-type: disc;
 }
 
-@media screen and (min-width: 1280px) {
-  body {
-    width: 770px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  body {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 800px) {
-  body {
-    width: 80%;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 50%;
-  }
-}
 #masthead {
   padding: 40px 0 0;
   text-align: center;
@@ -278,4 +259,49 @@ ul li {
 }
 #page h1 {
   border-bottom: 5px solid white;
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    width: 770px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  h3 {
+    font-size: .83em;
+  }
+
+  h4 {
+    font-size: .75em;
+  }
+
+  h5 {
+    font-size: .68em;
+  }
+
+  h6 {
+    font-size: .6em;
+  }
+
+  #masthead h1,
+  #masthead .title {
+    font-size: 2em;
+  }
 }

@@ -83,3 +83,21 @@
   text-align: right;
   color: #7a7a7a;
 }
+
+@media screen and (max-width: 900px) {
+  #masthead h1 {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 640px) {
+  #masthead h1 {
+    font-size: 3em;
+  }
+
+  .recent li.even,
+  .recent li.odd {
+    float: none;
+    width: auto;
+    margin: 10px 0;
+  }
+}

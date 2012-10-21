@@ -12,7 +12,29 @@
     body {
         width: 80%;
     }
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 50%;
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1em;
+    }
+    h3 {
+        font-size: .83em;
+    }
+    h4 {
+        font-size: .75em;
+    }
+    h5 {
+        font-size: .68em;
+    }
+    h6 {
+        font-size: .6em;
+    }
+
+    #masthead {
+        h1,
+        .title {
+            font-size: 2em;
+        }
     }
 }
