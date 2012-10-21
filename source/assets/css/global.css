@@ -79,22 +79,22 @@ body {
   color: #e5eae3;
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   body {
     width: 770px;
   }
 }
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   body {
     width: 70%;
   }
 }
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   body {
     width: 80%;
   }
 }
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   body {
     width: 90%;
   }
