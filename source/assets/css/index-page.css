@@ -28,8 +28,13 @@
   margin-top: 20px;
   overflow: hidden;
 }
-.recent li {
+.recent li.even {
   float: left;
+}
+.recent li.odd {
+  float: right;
+}
+.recent li {
   border: 10px solid white;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -39,8 +44,7 @@
   background: #e5eae3;
   color: black;
   padding: 20px;
-  margin: 10px;
-  width: 47.4%;
+  width: 48.5%;
   min-height: 124px;
   height: auto !important;
   height: 124px;

@@ -12,7 +12,7 @@ recipes—all of which just happen to be gluten-free.
 
 <ul class="recent">
 {% for post in paginator.posts %}
-    <li>
+    <li class="{% cycle 'even', 'odd' %}">
         <h2><a href="{{ post.url }}"><img src="{{ post.image }}" alt="" width="64">{{ post.title }}</a></h2>
         <p>Published {{ post.date | date: "%d %B, %Y" }}</p>
     </li>

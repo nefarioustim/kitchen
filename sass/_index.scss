@@ -23,15 +23,19 @@
     margin-top: 20px;
     overflow: hidden;
 
-    li {
+    li.even {
         float: left;
+    }
+    li.odd {
+        float: right;
+    }
+    li {
         border: 10px solid white;
         @include border-radius(20px);
         background: $bakery-box-white;
         color: $text;
         padding: 20px;
-        margin: 10px;
-        width: 47.4%;
+        width: 48.5%;
         @include min-height(124px);
 
         h2, p {
