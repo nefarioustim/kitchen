@@ -9,6 +9,7 @@
     border-top: 0;
     @include border-bottom-radius(20px);
     background: $bakery-box-white;
+    @include single-box-shadow(rgba(#000, 0.2), 0, 1px, 20px, 0, inset);
     color: $text;
 }
 
@@ -33,6 +34,7 @@
         border: 10px solid white;
         @include border-radius(20px);
         background: $bakery-box-white;
+        @include single-box-shadow(rgba(#000, 0.2), 0, 1px, 20px, 0, inset);
         color: $text;
         padding: 20px;
         width: 48.5%;
