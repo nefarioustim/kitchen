@@ -61,6 +61,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html {
+  background: #94a48f;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #444f40), color-stop(100%, #94a48f));
   background-image: -webkit-linear-gradient(#444f40, #94a48f);
   background-image: -moz-linear-gradient(#444f40, #94a48f);
