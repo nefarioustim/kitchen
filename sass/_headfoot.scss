@@ -31,6 +31,7 @@
                 display: block;
                 background: $sparkling-brook;
                 @include background-image(linear-gradient($sparkling-brook, adjust_lightness($sparkling-brook, -8)));
+                @include filter-gradient($sparkling-brook, adjust_lightness($sparkling-brook, -8));
                 border: 5px solid white;
                 border-width: 0 5px;
                 font-weight: bold;
@@ -41,12 +42,8 @@
                 &:active, &:hover, &:focus {
                     text-decoration: none;
                     background: $lemon-ice;
-                    @include background-image(
-                        linear-gradient(
-                            $lemon-ice,
-                            adjust_lightness($lemon-ice, -16)
-                        )
-                    );
+                    @include background-image(linear-gradient($lemon-ice, adjust_lightness($lemon-ice, -16)));
+                    @include filter-gradient($lemon-ice, adjust_lightness($lemon-ice, -16));
                 }
             }
         }

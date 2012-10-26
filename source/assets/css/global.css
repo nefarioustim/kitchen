@@ -67,6 +67,8 @@ html {
   background-image: -moz-linear-gradient(#444f40, #94a48f);
   background-image: -o-linear-gradient(#444f40, #94a48f);
   background-image: linear-gradient(#444f40, #94a48f);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF444F40', endColorstr='#FF94A48F');
   background-attachment: fixed;
   font: 16px/1.5 "Open Sans", sans-serif;
   overflow-y: scroll;
@@ -171,6 +173,8 @@ ul li {
   background-image: -moz-linear-gradient(#bedde7, #a0cddc);
   background-image: -o-linear-gradient(#bedde7, #a0cddc);
   background-image: linear-gradient(#bedde7, #a0cddc);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFBEDDE7', endColorstr='#FFA0CDDC');
   border: 5px solid white;
   border-width: 0 5px;
   font-weight: bold;
@@ -186,6 +190,8 @@ ul li {
   background-image: -moz-linear-gradient(#f7f8cd, #ecee85);
   background-image: -o-linear-gradient(#f7f8cd, #ecee85);
   background-image: linear-gradient(#f7f8cd, #ecee85);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF7F8CD', endColorstr='#FFECEE85');
 }
 #masthead:before {
   content: "";
