@@ -38,13 +38,13 @@ desc "Generate jekyll site"
 task :generate do
     print "Generating Site with Jekyll…\t"
     system "compass compile --css-dir #{source_dir}/assets/css"
-    system "jekyll ./#{source_dir} ./#{public_dir}"
+    system "jekyll build --source ./#{source_dir} --destination ./#{public_dir}"
     puts "[DONE!]\n"
 end
 
 desc "Preview the site in a web browser"
 task :preview do
-    jekyll_pid = Process.spawn("jekyll ./#{source_dir} ./#{public_dir} --auto --server #{server_port}")
+    jekyll_pid = Process.spawn("jekyll serve --source ./#{source_dir} --destination ./#{public_dir}")
     compass_pid = Process.spawn("compass watch --css-dir #{source_dir}/assets/css")
 
     puts "Starting to watch source with Jekyll (PID: #{jekyll_pid}) and Compass (PID: #{compass_pid})."
