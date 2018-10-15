@@ -1,9 +1,17 @@
 root: /
-permalink: /:title
-markdown: rdiscount
-lsi: false
+url: "https://timboskitchen.com"
+permalink: /:title.html
 title: Timbo's Kitchen
-paginate: 4
+author: Tim Huegdon
 
-rdiscount:
-    extensions: [smart]
+pagination:
+  enabled: true
+  per_page: 4
+  limit: 1
+  sort_field: 'date'
+  sort_reverse: true
+
+excerpt_separator: <!--more-->
+category_dir: categories
+
+plugins: [jekyll-paginate-v2, jekyll-sitemap]
