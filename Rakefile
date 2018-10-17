@@ -3,15 +3,27 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "highline/import"
 
-domain          = "timboskitchen.com"
+domain          = "nefariousdesigns.co.uk"
 
 public_dir      = "public"  # compiled site directory
 source_dir      = "source"  # source file directory
 posts_dir       = "_posts"  # directory for blog files
 server_port     = "4000"    # port for preview server eg. localhost:4000
 remote_server   = "pegasus" # remote server for deployment
-remote_path     = "sites/kitchen/public"    # remote path for deployment
+remote_path     = "sites/zeta/public"    # remote path for deployment
+
+def yesno(prompt = 'Continue?', default = true)
+    a = ''
+    s = default ? '[Y/n]' : '[y/N]'
+    d = default ? 'y' : 'n'
+    until %w[y n].include? a
+        a = ask("#{prompt} #{s} ") { |q| q.limit = 1; q.case = :downcase }
+        a = d if a.length == 0
+    end
+    a == 'y'
+end
 
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
 task :new_post, :title do |t, args|
@@ -20,7 +32,7 @@ task :new_post, :title do |t, args|
     title = args.title
     filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}.md"
     if File.exist?(filename)
-        abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+        abort("rake aborted!") if !yesno("#{filename} already exists. Do you want to overwrite?", false)
     end
     print "Creating new post: #{filename}…\t"
     open(filename, 'w') do |post|
